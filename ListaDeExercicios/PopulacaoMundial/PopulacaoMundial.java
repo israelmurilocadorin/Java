@@ -1,6 +1,4 @@
-package com.company;
-
-public class Main {
+public class PopulacaoMundial {
 
     public static void main(String[] args) {
         Integer anos = Integer.valueOf(args[0]);

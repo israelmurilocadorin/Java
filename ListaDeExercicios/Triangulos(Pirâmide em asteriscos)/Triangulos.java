@@ -1,19 +1,18 @@
 public class Triangulos {
 
-    public int PrimeiroTriangulo(int linhas){
+    public int PrimeiroTriangulo(int linhas) {
         char asterisco = '*';
 
         for(int contador1=0; contador1<linhas; contador1++){
-            for(int contador2=0; contador2<contador1; contador2++){
+            for(int contador2=0; contador2<contador1; contador2++) {
                 System.out.print(asterisco);
             }
             System.out.println(asterisco);
-
         }
         return 0;
     }
 
-    public int SegundoTriangulo(int linhas){
+    public int SegundoTriangulo(int linhas) {
         char asterisco = '*';
 
         for(int contador1=linhas; contador1>0; contador1--) {
@@ -25,7 +24,7 @@ public class Triangulos {
         return 0;
     }
 
-    public int TerceiroTriangulo(int linhas){
+    public int TerceiroTriangulo(int linhas) {
         char asterisco = '*';
         int espaco = 0;
 
@@ -43,7 +42,7 @@ public class Triangulos {
         return 0;
     }
 
-    public int QuartoTriangulo(int linhas){
+    public int QuartoTriangulo(int linhas) {
         char asterisco = '*';
         int espaco = 0;
 
